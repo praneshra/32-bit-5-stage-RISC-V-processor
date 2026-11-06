@@ -22,7 +22,7 @@ The processor implements the standard RV32I datapath and control unit, consistin
 
 Below is the simulation waveform captured from Vivado (`xsim`), demonstrating correct instruction fetching (`pc_dbg`, `instr_dbg`), clock toggling (`clk`), and successful register updates (`gr[1]`, `gr[2]`, `gr[3]`, etc.) executing test instructions:
 
-![Simulation Waveform](images/waveform.png)
+![Simulation Waveform](riscv_single_cycle/images/waveform.png)
 
 ---
 
