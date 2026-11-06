@@ -22,11 +22,17 @@ The processor implements the standard RV32I datapath and control unit, consistin
 
 Below is the simulation waveform captured from Vivado (`xsim`), demonstrating correct instruction fetching (`pc_dbg`, `instr_dbg`), clock toggling (`clk`), and successful register updates (`gr[1]`, `gr[2]`, `gr[3]`, etc.) executing test instructions:
 
-![Simulation Waveform](riscv_single_cycle/Screenshot 2026-11-06 145334.png)
+![Simulation Waveform](images/waveform.png)
 
 ---
 
+## 🚀 Getting Started & Simulation (Vivado)
 
+1. Clone or download this repository.
+2. Open **AMD Vivado** and create a new RTL project.
+3. Add all source files from `rtl/`, testbench from `tb/`, and simulation files from `sim/`.
+4. Ensure `program.hex` is accessible in your simulation working directory (or update the path in `instr_mem.v`).
+5. Set `tb_riscv_single_cycle` as the top module and launch behavioral simulation in Vivado XSIM.
 
 ---
 
