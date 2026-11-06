@@ -24,15 +24,7 @@ Below is the simulation waveform captured from Vivado (`xsim`), demonstrating co
 
 ![Simulation Waveform](images/waveform.png)
 
----
 
-## 🚀 Getting Started & Simulation (Vivado)
-
-1. Clone or download this repository.
-2. Open **AMD Vivado** and create a new RTL project.
-3. Add all source files from `rtl/`, testbench from `tb/`, and simulation files from `sim/`.
-4. Ensure `program.hex` is accessible in your simulation working directory (or update the path in `instr_mem.v`).
-5. Set `tb_riscv_single_cycle` as the top module and launch behavioral simulation in Vivado XSIM.
 
 ---
 
